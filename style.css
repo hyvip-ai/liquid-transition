@@ -11,6 +11,7 @@
 .my-div{
   height: 100%;
   width: 100%;
+  /* position: absolute; */
 }
 .row{
     margin: 8% auto;
@@ -18,6 +19,7 @@
 }
 .col-6{
     position: relative;
+    /* height: 500px; */
 }
 .writing{
     position: absolute;
@@ -31,4 +33,11 @@
 }
 .margin{
     margin-top: 150px;
+}
+.my-div1,
+.my-div2,
+.my-div3,
+.my-div4{
+    height: 500px;
+    width: 100%;
 }

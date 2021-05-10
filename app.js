@@ -5,7 +5,37 @@ var myAnimation = new hoverEffect({
     image2: 'images/Img22.jpg',
     displacementImage: 'distortion/10.jpg'
 });
+var mynewAnimation = new hoverEffect({
+    parent: document.querySelector('.my-div1'),
+    intensity: 0.3,
+    image1: 'images/Img21.jpg',
+    image2: 'images/Img22.jpg',
+    displacementImage: 'distortion/1.jpg'
+});
 
+var mynewAnimation1 = new hoverEffect({
+    parent: document.querySelector('.my-div2'),
+    intensity: 0.3,
+    image1: 'images/Img21.jpg',
+    image2: 'images/Img22.jpg',
+    displacementImage: 'distortion/4.png'
+});
+
+var mynewAnimation2 = new hoverEffect({
+    parent: document.querySelector('.my-div4'),
+    intensity: 0.3,
+    image1: 'images/Img21.jpg',
+    image2: 'images/Img22.jpg',
+    displacementImage: 'distortion/fluid.jpg'
+});
+
+var mynewAnimation3 = new hoverEffect({
+    parent: document.querySelector('.my-div3'),
+    intensity: 0.3,
+    image1: 'images/Img21.jpg',
+    image2: 'images/Img22.jpg',
+    displacementImage: 'distortion/8.jpg'
+});
 const tl = new TimelineLite({paused:true})
 tl.fromTo(".writing",1,{
     opacity:0,
